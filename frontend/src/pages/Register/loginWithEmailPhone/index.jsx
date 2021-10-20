@@ -1,11 +1,11 @@
 import React from "react";
 import Button from "../../../components/shared/button/Button";
+import Card from "../../../components/shared/card/Card";
 const index = ({ title, goToNExt }) => {
   return (
-    <div>
-      login with phone or Email
+    <Card title="login with phone or Email">
       <Button click={goToNExt} title="Next"></Button>
-    </div>
+    </Card>
   );
 };
 

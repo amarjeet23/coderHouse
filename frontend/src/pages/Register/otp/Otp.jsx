@@ -1,11 +1,11 @@
 import React from "react";
 import Button from "../../../components/shared/button/Button";
+import Card from "../../../components/shared/card/Card";
 const Otp = ({ title, goToNExt }) => {
   return (
-    <div>
-      confirm your OTP
+    <Card title="confirm your OTP">
       <Button click={goToNExt} title="Next"></Button>
-    </div>
+    </Card>
   );
 };
 
